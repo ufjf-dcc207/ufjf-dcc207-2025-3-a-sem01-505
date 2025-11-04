@@ -1,28 +1,28 @@
 .disciplina{
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 0.5em;
     padding: 0.5em;
     font-weight: 600;
     box-shadow: 0.1em 0.1em 0.2em;
     display: grid;
     grid-template-areas: 
-    "nome nome nome carga"
+    "nome nome . carga "
     ".  aval lab .";
 
     .nome{
         grid-area: nome;
-        place-content: center;
-        font-size: 4px;
+        place-content: right;
+        font-size: 14px;
     }
 
     .carga{
-        grid-area: carga;
+        grid-area: black;
         color: grey;
     }
 
     .aval{
-        grid-area: avaliacao;
-        place-content: center;
+        grid-area: aval;
+        place-content: right;
         font-size: 4em;
     }
 
@@ -32,6 +32,6 @@
         background-color: darkblue;
         color: white;
         font-size: 0.75em;
-        place-content: center;
+        place-content: right;
     }
 }

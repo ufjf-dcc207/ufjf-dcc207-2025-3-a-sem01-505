@@ -15,11 +15,11 @@ export default function Disciplina({
 }: DisciplinaProps){
     return(
         <div className="disciplina">
-            <div className="icone">{nome}</div>
+            <div className="nome">{nome}</div>
             <div className="carga">{carga.toLocaleString()}hr/semana</div>
             <div className="avaliacao">{aval}</div>
-            <-- IF ELSE PARA SALA OU LABORATÓRIO -->
-            <div className="lab">Sala: {lab}</div>
+            
+            <div className="lab">Sala/Lab{lab}</div>
         </div>
     )
 }

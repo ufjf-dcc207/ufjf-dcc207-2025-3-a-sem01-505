@@ -11,8 +11,8 @@ function App() {
     <Disciplina nome="Desenvolvimento Web II" carga={2} aval="⭐⭐⭐⭐" lab={true}/>
     <Disciplina nome="Organização de Computadores" carga={4} aval="⭐⭐" lab={false}/>
     <Disciplina nome="Circuitos Digitais" carga={4} aval="⭐⭐⭐⭐" lab={false}/>
-    <Disciplina nome="Calculo 1" carga={4} aval="⭐⭐⭐" lab={false}/>
-    <Disciplina nome="Calculo 2" carga={4} aval="⭐⭐⭐" lab={false}/>
+    <Disciplina nome="Cálculo 1" carga={4} aval="⭐⭐⭐" lab={false}/>
+    <Disciplina nome="Cálculo 2" carga={4} aval="⭐⭐⭐" lab={false}/>
     <Disciplina nome="Aspectos Legais da Informática" carga={2} aval="⭐⭐⭐⭐" lab={false}/>
   </div>;
 }
