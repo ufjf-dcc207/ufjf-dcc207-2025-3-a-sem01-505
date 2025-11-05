@@ -14,8 +14,7 @@ export default function Periodo({
         <div className="periodoPai">
             <div className="periodo">Período{periodo.toLocaleString()}</div>
             <div className="ramos">{children}</div>
-            <div className="disciplinas">{children}</div>
-        </div>
+            </div>
     )
 }
            
