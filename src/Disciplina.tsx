@@ -16,7 +16,7 @@ export default function Disciplina({
     return(
         <div className="disciplina">
             <div className="nome">{nome}</div>
-            <div className="carga">{carga.toLocaleString()}hr/semana</div>
+            <div className="carga">{carga.toLocaleString()}hr</div>
             <div className="avaliacao">{aval}</div>
             
             <div className="lab">Sala/Lab{lab}</div>
