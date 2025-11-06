@@ -12,9 +12,9 @@ export default function Periodo({
 }: PeriodoProps){
     return(
         <div className="periodoPai">
-            <div className="periodo">Período{periodo.toLocaleString()}</div>
+            <div className="periodo">{periodo.toLocaleString()} Período</div>
             <div className="ramos">{children}</div>
-            </div>
+        </div>
     )
 }
            

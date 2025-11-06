@@ -10,6 +10,7 @@
     position: relative;
     .periodo{
         width:800px;
+        text-transform: uppercase;
         color: black;
         font-weight: 600;
         background-color: rgb(175, 170, 170);
